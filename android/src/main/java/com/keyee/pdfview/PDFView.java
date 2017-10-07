@@ -18,7 +18,7 @@ public class PDFView implements ReactPackage {
         return Collections.emptyList();
     }
 
-    @Override
+    // deprecated as of RN 0.47
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
